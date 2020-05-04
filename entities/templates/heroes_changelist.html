@@ -1,0 +1,10 @@
+<!--IMPORTING CSV FORM IN ADMIN PANEL-->
+
+
+{% extends 'admin/change_list.html' %}
+
+{% block object-tools %}
+    <a href="import-csv/">Import CSV</a>
+    <br />
+    {{ block.super }}
+{% endblock %}
