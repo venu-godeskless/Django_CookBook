@@ -18,8 +18,8 @@ from django.dispatch import receiver
 #Create your models here.
 class Category(models.Model):
     name = models.CharField(max_length=100)
-    hero_count = models.PositiveIntegerField()
-    villain_count = models.PositiveIntegerField()
+    # hero_count = models.PositiveIntegerField()
+    # villain_count = models.PositiveIntegerField()
 
     class Meta:
         verbose_name_plural = "Categories"
